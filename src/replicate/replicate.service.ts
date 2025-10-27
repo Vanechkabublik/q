@@ -60,6 +60,67 @@ export class ReplicateService {
         }
     }
 
+    async generateImageFromPrompt(
+        prompt: string,
+        imageInput?: string, // опциональное изображение
+        aspectRatio: string = 'match_input_image',
+        outputFormat: string = 'jpg'
+    ): Promise<string> {
+        const replicateApiToken = this.configService.get<string>('REPLICATE_API_TOKEN');
+
+        if (!replicateApiToken) {
+            throw new HttpException(
+                'REPLICATE_API_TOKEN is not configured',
+                HttpStatus.INTERNAL_SERVER_ERROR
+            );
+        }
+
+        try {
+            // Подготавливаем input для API
+            const input: any = {
+                prompt: prompt,
+                aspect_ratio: aspectRatio,
+                output_format: outputFormat
+            };
+
+            // Добавляем image_input только если оно предоставлено
+            if (imageInput) {
+                input.image_input = [imageInput];
+            }
+
+            const response = await fetch('https://api.replicate.com/v1/predictions', {
+                method: 'POST',
+                headers: {
+                    'Authorization': `Token ${replicateApiToken}`,
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    version: "google/nano-banana",
+                    input: input
+                })
+            });
+
+            if (!response.ok) {
+                const errorData = await response.json();
+                console.log('Error details:', errorData);
+                throw new Error(`HTTP error! status: ${response.status}, details: ${JSON.stringify(errorData)}`);
+            }
+
+            const data = await response.json();
+            const predictionId = data.id;
+            const result = await this.waitForPrediction(predictionId, replicateApiToken);
+
+            return result;
+
+        } catch (error) {
+            console.error('Replicate API error:', error);
+            throw new HttpException(
+                `Image generation failed: ${error.message}`,
+                HttpStatus.INTERNAL_SERVER_ERROR
+            );
+        }
+    }
+
     private async waitForPrediction(predictionId: string, token: string): Promise<string> {
         const maxAttempts = 30;
         const delay = 2000;
