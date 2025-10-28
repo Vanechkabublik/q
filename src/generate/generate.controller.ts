@@ -21,7 +21,18 @@ export class GenerateController {
   ) {}
 
   @Post('from-template')
-  @UseInterceptors(FileInterceptor('image'))
+  @UseInterceptors(FileInterceptor('image', {
+    limits: {
+      fileSize: 5 * 1024 * 1024, // 5MB - ОТСЕКАЕТ СРАЗУ
+    },
+    fileFilter: (req, file, cb) => {
+      if (file.mimetype.startsWith('image/')) {
+        cb(null, true);
+      } else {
+        cb(new Error('Only images allowed'), false);
+      }
+    }
+  }))
   async generateTemplate(
       @UploadedFile() file: Express.Multer.File,
       @Body() body: { template_id: string }
@@ -44,7 +55,18 @@ export class GenerateController {
   }
 
   @Post('from-prompt')
-  @UseInterceptors(FileInterceptor('image')) // image - опциональное поле
+  @UseInterceptors(FileInterceptor('image', {
+    limits: {
+      fileSize: 5 * 1024 * 1024, // 5MB - ОТСЕКАЕТ СРАЗУ
+    },
+    fileFilter: (req, file, cb) => {
+      if (file.mimetype.startsWith('image/')) {
+        cb(null, true);
+      } else {
+        cb(new Error('Only images allowed'), false);
+      }
+    }
+  })) // image - опциональное поле
   async generateFromPrompt(
       @UploadedFile() file: Express.Multer.File,
       @Body() body: GenerateImageDto

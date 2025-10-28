@@ -4,6 +4,7 @@ import { StorageService } from './storage/storage.service';
 import {ServeStaticModule} from "@nestjs/serve-static";
 import {join} from "path";
 import { ReplicateService } from './replicate/replicate.service';
+import { TemplateModule } from './template/template.module';
 
 @Module({
   imports: [
@@ -11,7 +12,8 @@ import { ReplicateService } from './replicate/replicate.service';
       rootPath: join(__dirname, '..', 'uploads'),
       serveRoot: '/uploads',
     }),
-    GenerateModule
+    GenerateModule,
+    TemplateModule
   ],
   controllers: [],
   providers: [StorageService, ReplicateService],

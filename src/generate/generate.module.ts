@@ -4,6 +4,7 @@ import { GenerateController } from './generate.controller';
 import {StorageService} from "../storage/storage.service";
 import {ReplicateService} from "../replicate/replicate.service";
 import {ConfigModule} from "@nestjs/config";
+import {TemplateService} from "../template/template.service";
 
 @Module({
   imports: [
@@ -14,6 +15,6 @@ import {ConfigModule} from "@nestjs/config";
   controllers: [
     GenerateController
   ],
-  providers: [GenerateService, StorageService, ReplicateService],
+  providers: [GenerateService, StorageService, ReplicateService, TemplateService],
 })
 export class GenerateModule {}

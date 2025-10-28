@@ -1,0 +1,622 @@
+{
+  "templates": [
+    {
+      "id": "1",
+      "name": "Wizard Academy",
+      "prompt": "Create an ultra-realistic fantasy-school portrait inspired by the person in the photo. Keep their facial identity, but change pose, composition, and background to fit a magical boarding-school world. The person should look like a unique witch or wizard student, not an existing character. Dress them in academy-style robes with subtle color accents and a glowing wand. Set the scene in an old stone corridor or candlelit library with volumetric light and depth. Use cinematic lighting, shallow depth of field, and soft atmospheric fog. The image should look like a high-end movie still, not digital art or painting. Photorealistic textures, realistic skin, realistic fabric, physically accurate lighting, cinematic composition, high contrast and color grading like a fantasy film. Use 50mm f/1.4 lens, 8K UHD photo-quality, depth of field, film grain, realistic shadow detail.",
+      "preview": "https://api.codematter.space/uploads/wizard-academy-preview.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Chemistry Lab Drama",
+      "prompt": "Create an ultra-realistic cinematic portrait inspired by the person in the photo. Maintain their facial identity, but change pose and framing to fit a tense industrial-lab environment with desert light and gritty atmosphere. Dress them in neutral workwear --- lab coat or apron, protective gloves, goggles --- under harsh warm lighting with golden dust tones. Surround them with metal tables, chemical glassware, faint smoke, and realistic reflections. Use 35 mm film-style composition, high contrast, subtle film grain, volumetric light rays through dust. The result must look like a still frame from a crime-drama movie, not a painting.",
+      "preview": "https://api.codematter.space/uploads/chemistry-lab-drama-preview.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Medieval Epic",
+      "prompt": "Create a photorealistic medieval fantasy portrait of the person in the photo. Keep their facial likeness but reimagine them as a warrior or noble figure in a foggy battlefield or ancient castle. Dress them in worn armor or leather tunic with realistic metal reflections, mud, and cloth detail. Lighting should be cinematic and moody --- soft overcast daylight with volumetric haze. Add drifting embers, wind-blown hair, and grounded realism. The result should resemble a high-budget historical film still.",
+      "preview": "https://api.codematter.space/uploads/medieval-epic-preview.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Neo-Tokyo Cyberpunk",
+      "prompt": "Create a hyper-realistic cyberpunk portrait of the person in the photo. Preserve facial features but set them in a rain-soaked neon city street at night. Dress them in futuristic urban clothing with subtle reflections of pink, blue, and cyan neon lights. Use cinematic lens blur, wet asphalt reflections, realistic rain droplets, and atmospheric haze. Lighting should feel like a modern sci-fi film --- strong backlight, shallow DOF, rim lighting on the face. Output must resemble a real movie shot, not digital art.",
+      "preview": "https://api.codematter.space/uploads/neo-tokyo-cyberpunk-preview.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Galactic Odyssey",
+      "prompt": "Create a cinematic photorealistic portrait inspired by the person in the photo. Keep facial structure but place them as a space traveler in a futuristic hangar or orbiting station. Outfit should look like custom sci-fi armor or pilot uniform with realistic materials. Use cold blue and warm accent lighting, detailed reflections on metallic surfaces, and subtle lens flares. Background: nebula, distant stars, or spaceship interior. Render should appear as a still frame from a high-budget sci-fi film.",
+      "preview": "https://api.codematter.space/uploads/galactic-odyssey-preview.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Dark Gotham Vigilante",
+      "prompt": "Generate a realistic cinematic portrait of the person in the photo. Keep identity but set them on a rainy rooftop overlooking a city at night. Wardrobe: dark tactical jacket or coat, wet fabric texture, reflections of city lights on water. Lighting: strong rim light, fog, moody cinematic shadows. Include raindrops, smoke, and shallow depth of field for realism. The result should resemble a noir-superhero movie still --- dark, moody, grounded.",
+      "preview": "https://api.codematter.space/uploads/dark-gotham-vigilante-preview.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Matrix-Style Code Rain",
+      "prompt": "Create a realistic futuristic portrait inspired by the person in the photo. Keep identity but immerse them in a digital \"code rain\" world with reflective surfaces. Outfit: minimalist black clothing, soft leather texture, subtle green lighting. Add faint glowing data streams behind and gentle light reflection on face. Camera: 50 mm cinematic lens, shallow DOF, realistic lighting contrast. The photo should look like a live-action sci-fi shot.",
+      "preview": "https://api.codematter.space/uploads/matrix-code-rain-preview.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Superhero Studio",
+      "prompt": "Create a hyper-realistic portrait of the person as a unique superhero. Keep facial identity but design an original suit with metallic textures and glowing elements. Set them against a cloudy sky or city skyline at golden hour. Lighting: backlit, cinematic lens flare, 35 mm movie composition. Capture dynamic pose with wind motion in cape or hair. Must look like a Hollywood movie poster frame.",
+      "preview": "https://api.codematter.space/uploads/superhero-studio-preview.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Victorian Vampire",
+      "prompt": "Create a realistic gothic portrait inspired by the person in the photo. Maintain their identity but style them in Victorian-era clothing --- high collar, waistcoat, velvet jacket. Set lighting as candlelight and moonlight blend, with old interior architecture visible. Include soft smoke or dust particles, shallow DOF, film-like grain. The result must feel like an authentic 19th-century photograph turned cinematic.",
+      "preview": "https://api.codematter.space/uploads/victorian-vampire-preview.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Post-Apocalyptic Survivor",
+      "prompt": "Create a realistic cinematic portrait of the person in the photo as a survivor in a post-apocalyptic world. Keep identity but change outfit to rugged, dusty gear with goggles or scarf. Background: destroyed buildings, desert storm, or metal wrecks. Lighting: harsh sunlight, warm tones, dust haze. Use realistic dirt textures, scratches, and filmic grain. The image should feel like a movie scene from a survival thriller.",
+      "preview": "https://api.codematter.space/uploads/post-apocalyptic-survivor-preview.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Haunted House Horror",
+      "prompt": "Create a cinematic horror portrait inspired by the person in the photo. Keep their identity but set them in a dim old house with flickering candlelight and dust in the air. Use realistic chiaroscuro lighting, shadows moving across the face, fog in background. Add mild camera grain for realism. The result should look like a film still --- eerie but lifelike.",
+      "preview": "https://api.codematter.space/uploads/haunted-house-horror-preview.jpg"
+    },
+    {
+      "id": "12",
+      "name": "AI Future Lab",
+      "prompt": "Create an ultra-realistic futuristic portrait inspired by the person in the photo. Maintain facial features but place them in a sleek white laboratory with glass reflections and holographic light. Outfit: minimalist techwear or modern casual. Lighting: soft, even, realistic reflections, shallow DOF. The result should resemble a high-end sci-fi movie shot, not an illustration.",
+      "preview": "https://api.codematter.space/uploads/ai-future-lab-preview.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Dream Fashion City",
+      "prompt": "Create a glamorous cinematic fashion portrait inspired by the person in the photo. Maintain facial likeness, but reimagine them walking confidently down a glowing pastel city street at sunset. Pose should show motion --- wind in hair, stride, or turning glance. Dress them in stylish high-fashion attire with glossy fabric reflections and soft pink-gold lighting. Add cinematic lens flare, shallow DOF, and slight sparkle effects. Scene feels dreamy yet realistic --- like a high-end fashion movie still shot on 50 mm f/1.4.",
+      "preview": "https://api.codematter.space/uploads/dream-fashion-city-preview.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Sunset Runway Walk",
+      "prompt": "Create a glamorous cinematic fashion portrait inspired by the person in the photo. Keep their facial likeness, but capture them mid-walk on an open pastel-pink runway at sunset. Hair moves naturally in the wind, one leg forward, eyes glancing confidently toward camera. Dress them in glossy designer outfit with soft gold reflections. Include glowing sky gradient and gentle lens flare. Scene should feel alive --- like a frame from a high-budget fashion movie, not a static photo.",
+      "preview": "https://api.codematter.space/uploads/sunset-runway-walk-preview.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Convertible Dream Drive",
+      "prompt": "Create an ultra-realistic cinematic portrait of the person in the photo driving a pink convertible through a sunny coastal road. Pose: one hand on steering wheel, hair blowing, smile toward the wind. Sunglasses reflect pastel skies and palm trees. Lighting: golden sunlight, cinematic DOF, reflection on car paint. The scene feels like a movie moment full of motion and joy, not posed.",
+      "preview": "https://api.codematter.space/uploads/convertible-dream-drive-preview.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Pop Star Stage Glow",
+      "prompt": "Create an ultra-realistic cinematic portrait using the exact facial features, proportions, and identity of the person in the input image. Keep their recognizable face, skin tone, and expression consistent. Reimagine them performing on a glamorous stage under pink and violet spotlights. Pose: mid-dance, microphone in hand, hair caught in motion. Dress them in a sparkling outfit with realistic light reflections. Use dynamic camera angle, shallow depth of field, cinematic lens flare, and motion blur for realism. The result must look like a movie photo of the same person, not a new character.",
+      "preview": "https://api.codematter.space/uploads/pop-star-stage-glow-preview.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Beachside Picnic Glow",
+      "prompt": "Use the exact face, identity, and features of the person in the uploaded photo. Keep the same facial structure, eyes, and skin tone --- do not change the person's appearance. Create a cinematic summer portrait of them sitting on a pastel blanket by the beach at sunset. Pose: leaning slightly forward, one hand brushing hair, gentle authentic smile. Lighting: golden hour with realistic reflections on skin and soft glow on water. Wind moves fabric, palm leaves, and hair strands naturally. Shot should look like a candid movie still of that same person, relaxed and alive, not posed.",
+      "preview": "https://api.codematter.space/uploads/beachside-picnic-glow-preview.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Shopping Avenue Walk",
+      "prompt": "Keep the same exact face and identity from the uploaded image --- preserve all facial proportions, eyes, and skin tone. Reimagine the person walking mid-step through a pastel-pink shopping street bathed in soft golden light. Pose: mid-motion, shopping bags in one hand, the other waving naturally toward camera, smile genuine. Dress: elegant pastel outfit with glossy fabric reflections. Motion blur in dress and hair conveys realism. Background: softly defocused boutiques, glass reflections. Scene feels cinematic and vibrant --- like a live fashion film frame featuring the same person.",
+      "preview": "https://api.codematter.space/uploads/shopping-avenue-walk-preview.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Amusement Park Adventure",
+      "prompt": "Use the same person's face and identity from the uploaded photo without alteration. Create a lively cinematic portrait of them on a Ferris wheel or rollercoaster seat. Pose: hair in motion, arms raised or gripping the rail, genuine laughter. Lighting: cool-pink and violet tones with realistic reflections and shallow DOF. Camera: mid-shot with slight motion blur conveying movement. The image should look like a real movie scene of that same person enjoying the ride --- spontaneous and authentic.",
+      "preview": "https://api.codematter.space/uploads/amusement-park-adventure-preview.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Lost Jungle Expedition",
+      "prompt": "Use the exact face, identity, and facial features of the person in the uploaded image. Keep them recognizable --- same eyes, expression, and proportions. Reimagine them as an explorer hiking through a misty prehistoric jungle at sunrise. Pose: stepping over roots, looking up toward flying reptiles, motion in clothing and leaves. Lighting: cinematic morning light with volumetric fog and light beams. Outfit: adventure gear, backpack, subtle dirt and sweat detail. The scene must look like a realistic film still of that same person deep in the wild.",
+      "preview": "https://api.codematter.space/uploads/lost-jungle-expedition-preview.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Deserted Island Survivor",
+      "prompt": "Preserve the same identity and facial details from the source photo. Depict them standing barefoot on a tropical island beach surrounded by shipwreck remains. Pose: one hand shielding eyes, wind blowing through hair, distant gaze. Lighting: golden sunlight and ocean reflections, cinematic composition. Add natural skin texture and movement in water. The result should look like a realistic adventure-survival movie still.",
+      "preview": "https://api.codematter.space/uploads/deserted-island-survivor-preview.jpg"
+    },
+    {
+      "id": "22",
+      "name": "Cave of Echoes",
+      "prompt": "Keep the same face, skin tone, and unique features of the person from the uploaded photo. Place them inside a vast crystal-lit cave holding a torch or glowing crystal. Pose: one knee bent, leaning forward, cautious expression. Lighting: torchlight reflecting off cave walls, blue ambient glow. Dust motes and mist visible in air. Should feel like a moment of discovery in a real film, not CGI art.",
+      "preview": "https://api.codematter.space/uploads/cave-of-echoes-preview.jpg"
+    },
+    {
+      "id": "23",
+      "name": "Ancient Temple Discovery",
+      "prompt": "Use the same face and identity as in the input photo. Show them uncovering a lost temple in a desert canyon. Pose: brushing sand off an artifact, kneeling near stone carvings. Outfit: explorer attire with subtle wear and dust. Lighting: strong backlight, warm sun filtering through columns, cinematic depth. The result must feel like a real adventure archaeology movie scene.",
+      "preview": "https://api.codematter.space/uploads/ancient-temple-discovery-preview.jpg"
+    },
+    {
+      "id": "24",
+      "name": "Frozen Mountain Ascent",
+      "prompt": "Preserve the same face and features of the person from the input image. Show them mid-climb on an icy mountain cliff, wind and snow swirling. Pose: gripping rope, turning head toward camera with determined expression. Lighting: bright diffused sunlight, snow particles in air, cinematic cold tones. Outfit: heavy climbing jacket with realistic texture and ice detail. Scene feels tense and real --- as if captured during an expedition film.",
+      "preview": "https://api.codematter.space/uploads/frozen-mountain-ascent-preview.jpg"
+    },
+    {
+      "id": "25",
+      "name": "Desert Storm Chase",
+      "prompt": "Keep the same facial identity and proportions of the uploaded person. Depict them running or shielding themselves from a sandstorm in a vast desert. Pose: half-turned body, scarf blowing dramatically, movement visible. Lighting: warm-orange storm hues, strong backlight through sand. Scene dynamic, cinematic --- like a captured film moment of survival and motion.",
+      "preview": "https://api.codematter.space/uploads/desert-storm-chase-preview.jpg"
+    },
+    {
+      "id": "26",
+      "name": "Sky Ruins Explorer",
+      "prompt": "Maintain the same face and expression from the input photo. Place them standing on a mossy stone bridge high above clouds and waterfalls. Pose: arms spread for balance, wind in hair, awe-struck expression. Lighting: golden sunset light, volumetric haze, birds flying. Composition: wide, cinematic, emphasizing scale and realism.",
+      "preview": "https://api.codematter.space/uploads/sky-ruins-explorer-preview.jpg"
+    },
+    {
+      "id": "27",
+      "name": "Underground Expedition",
+      "prompt": "Use the same facial identity and tone from the uploaded image. Depict them walking through an underground ruin, holding a flashlight or lantern. Pose: slightly crouched, face illuminated by light, cautious eyes. Lighting: cinematic chiaroscuro, subtle dust and lens flare. Scene feels claustrophobic but immersive --- a real film exploration moment.",
+      "preview": "https://api.codematter.space/uploads/underground-expedition-preview.jpg"
+    },
+    {
+      "id": "28",
+      "name": "Stormy Sea Escape",
+      "prompt": "Keep the exact face and identity of the person in the uploaded image. Place them on the deck of a small boat during a raging storm. Pose: gripping the wheel or rope, soaked by rain, wind in hair. Lighting: dramatic blue-grey tones, lightning flash illuminating face. Should look like a real movie still from a sea adventure film.",
+      "preview": "https://api.codematter.space/uploads/stormy-sea-escape-preview.jpg"
+    },
+    {
+      "id": "29",
+      "name": "Forgotten Valley (Prehistoric Encounter)",
+      "prompt": "Preserve the exact face and features from the uploaded image. Show them standing in a lush valley surrounded by enormous ancient creatures grazing nearby. Pose: standing slightly back, eyes wide in awe, hair moving in wind. Lighting: warm sunlight with natural mist and foliage. Must look like a live-action prehistoric discovery film still.",
+      "preview": "https://api.codematter.space/uploads/forgotten-valley-preview.jpg"
+    },
+    {
+      "id": "30",
+      "name": "Forbidden Shrine at Dusk",
+      "prompt": "Keep the same identity and facial details from the uploaded image. Depict them walking up ancient mossy steps toward a glowing shrine surrounded by fog. Pose: slight turn of the head toward camera, soft backlight on hair. Lighting: red-orange dusk tones, cinematic glow from lanterns. The scene should feel mystical yet real --- like an adventure-drama movie frame.",
+      "preview": "https://api.codematter.space/uploads/forbidden-shrine-dusk-preview.jpg"
+    },
+    {
+      "id": "31",
+      "name": "Skyship Captain",
+      "prompt": "Preserve the exact face and appearance from the uploaded photo. Reimagine them as a skyship captain standing at the helm of an airship in flight. Pose: one hand on lever, the other resting on rail, wind blowing coat and hair. Lighting: sunrise over clouds, soft reflections on goggles and metal. Shot should feel like a grand cinematic moment --- full of energy and realism.",
+      "preview": "https://api.codematter.space/uploads/skyship-captain-preview.jpg"
+    },
+    {
+      "id": "32",
+      "name": "Lost Caravan Journey",
+      "prompt": "Keep the same face and identity. Depict them traveling on camelback across dunes at twilight. Pose: turning slightly toward camera, veil or scarf blowing in wind. Lighting: low sun glow, warm shadows, golden haze. The scene must look like a cinematic adventure frame, natural and alive.",
+      "preview": "https://api.codematter.space/uploads/lost-caravan-journey-preview.jpg"
+    },
+    {
+      "id": "33",
+      "name": "Forest Guardian Trail",
+      "prompt": "Preserve their real face and expression. Show them in a dense glowing forest, holding a torch and looking cautiously ahead. Pose: slight crouch, hair moving, cloak trailing. Lighting: blue-green tones, soft fog and floating fireflies. Realistic textures and motion make it feel alive --- like a real exploration movie scene.",
+      "preview": "https://api.codematter.space/uploads/forest-guardian-trail-preview.jpg"
+    },
+    {
+      "id": "34",
+      "name": "Volcano Edge Rescue",
+      "prompt": "Keep the exact identity, facial features, and proportions from the uploaded photo. Depict them on the edge of an erupting volcano, reaching out to help someone or holding gear. Pose: leaning forward, tension visible in body and face. Lighting: orange glow from lava, dark smoke, cinematic dynamic range. The image should feel like a powerful real movie still --- high-stakes and realistic.",
+      "preview": "https://api.codematter.space/uploads/volcano-edge-rescue-preview.jpg"
+    },
+    {
+      "id": "35",
+      "name": "Golden Hour Beach Close-Up",
+      "prompt": "Use the exact facial features and identity of the person from the uploaded photo. Keep their natural skin tone and facial proportions unchanged. Create a cinematic close-up portrait on the beach during sunset. Pose: head slightly turned toward the sun, soft squint, warm golden reflections on wet skin. Lighting: strong orange backlight, subtle lens flare, shallow DOF. The result should look like a high-end fashion photo taken with a 50 mm lens.",
+      "preview": "https://api.codematter.space/uploads/golden-hour-beach-preview.jpg"
+    },
+    {
+      "id": "36",
+      "name": "After-Swim Glow",
+      "prompt": "Preserve the same face and expression of the uploaded person. Reimagine them emerging from the sea, wet hair sticking slightly to skin, water droplets visible. Pose: looking over shoulder or brushing hair back. Lighting: blue-orange contrast from sunset sky, realistic specular highlights. Scene feels fresh, cinematic, and alive --- not posed.",
+      "preview": "https://api.codematter.space/uploads/after-swim-glow-preview.jpg"
+    },
+    {
+      "id": "37",
+      "name": "Reflections in the Tide",
+      "prompt": "Use the exact facial features and identity of the person from the uploaded photo. Show them crouching near the shoreline, looking at their reflection in wet sand. Pose: half-turned, one hand touching water surface, expression thoughtful. Lighting: golden-pink sunset gradient, natural bokeh from ocean waves. The result must look like a film still --- emotional and grounded.",
+      "preview": "https://api.codematter.space/uploads/reflections-tide-preview.jpg"
+    },
+    {
+      "id": "38",
+      "name": "Wind & Waves",
+      "prompt": "Use the exact facial features and identity of the person from the uploaded photo. Capture them standing waist-deep in shallow water, hair blowing in sea breeze. Pose: eyes closed, face turned slightly upward toward wind. Lighting: dramatic side light, golden reflections on skin and water ripples. Should feel like a cinematic \"moment of peace\" on film.",
+      "preview": "https://api.codematter.space/uploads/wind-waves-preview.jpg"
+    },
+    {
+      "id": "39",
+      "name": "Sunkissed Editorial",
+      "prompt": "Use the exact facial features and identity of the person from the uploaded photo. Reimagine them posing for a fashion magazine beach shoot. Pose: reclining on towel, one arm above head, confident gaze. Lighting: strong contrast between warm sun and soft shadows. Include subtle lens flare and specular highlights on skin. Feels like an editorial photograph --- real, luxurious, and photorealistic.",
+      "preview": "https://api.codematter.space/uploads/sunkissed-editorial-preview.jpg"
+    },
+    {
+      "id": "40",
+      "name": "Surf Horizon",
+      "prompt": "Use the exact facial features and identity of the person from the uploaded photo. Show them standing next to a surfboard at shoreline, ocean waves behind. Pose: one leg bent, hand resting on board, looking off to horizon. Lighting: golden hour glow with slight lens flare and light mist. Composition: wide cinematic frame, soft motion blur from wind.",
+      "preview": "https://api.codematter.space/uploads/surf-horizon-preview.jpg"
+    },
+    {
+      "id": "41",
+      "name": "Ocean Mist Portrait",
+      "prompt": "Use the exact facial features and identity of the person from the uploaded photo. Capture them close-up as ocean spray hits lightly, hair damp, light mist visible. Pose: smiling naturally or eyes closed, water droplets on skin. Lighting: diffused sunset light with cool blue highlights. Image must look photorealistic and dynamic, not painted.",
+      "preview": "https://api.codematter.space/uploads/ocean-mist-portrait-preview.jpg"
+    },
+    {
+      "id": "42",
+      "name": "Backlit Silhouette Glow",
+      "prompt": "Use the exact facial features and identity of the person from the uploaded photo. Place them on the beach facing away from camera but slightly turned toward lens, sunlight flaring behind. Pose: hair glowing in sunlight, shoulders illuminated, profile visible. Lighting: warm cinematic halo with real atmospheric haze. Scene looks like a movie frame --- glowing, emotional, natural.",
+      "preview": "https://api.codematter.space/uploads/backlit-silhouette-glow-preview.jpg"
+    },
+    {
+      "id": "43",
+      "name": "Seashell Whisper",
+      "prompt": "Use the exact facial features and identity of the person from the uploaded photo. Pose: sitting on sand, holding a seashell to ear, eyes half-closed. Lighting: soft side light, pastel reflections from sea. Fabric (dress or shirt) moves slightly with breeze. The portrait should feel serene, natural, and cinematic.",
+      "preview": "https://api.codematter.space/uploads/seashell-whisper-preview.jpg"
+    },
+    {
+      "id": "44",
+      "name": "Twilight Shoreline",
+      "prompt": "Use the exact facial features and identity of the person from the uploaded photo. Show them standing barefoot near waterline at twilight, sky glowing purple and gold. Pose: walking toward camera, gentle smile, reflections under feet. Lighting: low-sun golden tones, cinematic DOF. Scene evokes warmth, nostalgia, realism.",
+      "preview": "https://api.codematter.space/uploads/twilight-shoreline-preview.jpg"
+    },
+    {
+      "id": "45",
+      "name": "Tropical Heatwave",
+      "prompt": "Use the exact facial features and identity of the person from the uploaded photo. Scene: standing against palm-shadowed wall, golden sunlight across face. Pose: playful, turning slightly with soft grin, wind in hair. Lighting: strong contrast and sun streaks; visible texture on skin. Image should look like a real summer lifestyle film frame.",
+      "preview": "https://api.codematter.space/uploads/tropical-heatwave-preview.jpg"
+    },
+    {
+      "id": "46",
+      "name": "Aqua Neon Night",
+      "prompt": "Use the exact facial features and identity of the person from the uploaded photo. Depict them near water at night illuminated by colored neon lights (blue, pink, purple). Pose: leaning on a metal railing or edge of pool, expression calm and cinematic. Lighting: wet reflections, visible drops, soft focus background. The result must look like a high-end nightlife movie still --- moody and hyperreal.",
+      "preview": "https://api.codematter.space/uploads/aqua-neon-night-preview.jpg"
+    },
+    {
+      "id": "47",
+      "name": "Ancient Egyptian Pharaoh - Group Portrait",
+      "prompt": "Use the exact face, skin tone, and identity of the person from the uploaded photo. Keep their facial proportions, eyes, and expression unchanged --- the same person must clearly appear in the final image. Create a realistic handheld selfie photo of them standing next to an ancient Egyptian pharaoh. Pose: both smiling naturally and looking into the camera, shoulders close together as if taking a selfie. Camera angle: close-up, slight lens distortion, shallow depth of field, soft background blur. Background: golden candle-lit Egyptian throne room with hieroglyphs and warm glow, but slightly out of focus. Lighting: natural warm tones, reflections on skin and jewelry, realistic cinematic color balance. The result must look like a modern smartphone selfie taken inside a historical film set --- detailed, natural, alive, and photorealistic.",
+      "preview": "https://api.codematter.space/uploads/ancient-egyptian-pharaoh-preview.jpg"
+    },
+    {
+      "id": "48",
+      "name": "Medieval Knight",
+      "prompt": "Use the exact face, skin tone, and identity of the person from the uploaded photo. Keep their facial features and proportions unchanged --- the same person must clearly appear in the final image. Create a realistic handheld selfie photo of them standing beside a medieval knight in armor inside a stone castle hall. Both smiling toward the camera, friendly expressions. The user's outfit is reimagined as medieval-style clothing with subtle fabric textures and leather details, matching the setting. Camera: close-up selfie angle, shallow DOF, slight lens distortion, warm candlelight reflections. Background: castle walls, banners, torches slightly out of focus. The result must look like a real selfie taken on a historical movie set --- cinematic, authentic, and photorealistic.",
+      "preview": "https://api.codematter.space/uploads/medieval-knight-preview.jpg"
+    },
+    {
+      "id": "49",
+      "name": "Samurai of Edo Era",
+      "prompt": "Use the exact face, tone, and identity of the uploaded person without alteration. Create a realistic handheld selfie with a samurai dressed in Edo-period armor standing beside them in a Japanese temple courtyard. Pose: both smiling or nodding slightly toward the camera, friendly, natural posture. The user's clothing transforms into a light kimono-style outfit that matches the setting. Lighting: soft daylight with sakura petals drifting in air, cinematic color tone. Background: wooden temple architecture and paper lanterns slightly blurred. The image should look like a modern selfie captured during a film shoot in Japan --- real, immersive, detailed.",
+      "preview": "https://api.codematter.space/uploads/samurai-edo-era-preview.jpg"
+    },
+    {
+      "id": "50",
+      "name": "Renaissance Queen",
+      "prompt": "Use the same face and identity from the uploaded image. Create a realistic handheld selfie of them beside a regal Renaissance queen in a lavish palace interior. Both looking at the camera, warm smiles, elegant posture. The user's outfit becomes a Renaissance gown or noble attire with ornate embroidery and jewelry. Lighting: golden window light with reflections from chandeliers, shallow DOF. Background: marble columns, red drapes, softly out of focus. The image should look like a historical selfie from a period film set --- rich textures, lifelike realism.",
+      "preview": "https://api.codematter.space/uploads/renaissance-queen-preview.jpg"
+    },
+    {
+      "id": "51",
+      "name": "Pirate Explorer",
+      "prompt": "Use the exact face and proportions of the uploaded person. Generate a realistic handheld selfie of them standing beside a pirate explorer on the deck of a wooden ship at sea. Pose: both grinning at the camera, wind in hair, natural expressions. The user's clothing adapts to a pirate-style outfit --- linen shirt, vest, accessories suited to the setting. Lighting: golden sunlight, ocean reflections, cinematic color grading. Background: sails, rigging, blue sky and sea blurred behind. The selfie should feel dynamic, realistic, like a behind-the-scenes adventure photo.",
+      "preview": "https://api.codematter.space/uploads/pirate-explorer-preview.jpg"
+    },
+    {
+      "id": "52",
+      "name": "Viking Chieftain",
+      "prompt": "Use the uploaded person's exact face and identity without change. Create a handheld selfie of them beside a Viking chieftain in a coastal village. Pose: both smiling slightly, friendly, relaxed. The user's outfit becomes rustic Nordic clothing --- wool tunic, fur details, leather accessories. Lighting: natural overcast with warm firelight reflections from torches. Background: wooden huts, fjord landscape slightly blurred. The image must look like a photorealistic selfie taken during a historical re-enactment --- detailed and alive.",
+      "preview": "https://api.codematter.space/uploads/viking-chieftain-preview.jpg"
+    },
+    {
+      "id": "53",
+      "name": "Celtic Druid",
+      "prompt": "Keep the user's exact facial identity and tone unchanged. Create a realistic handheld selfie of them beside a Celtic druid in a mystical forest at dawn. Pose: both looking into the camera calmly, soft smiles, peaceful energy. The user's outfit transforms into a simple nature-inspired robe with subtle ornamentation. Lighting: soft morning mist, dappled sunlight, glowing particles in air. Background: moss-covered stones and ancient trees slightly out of focus. Should look like a dreamy, yet realistic selfie from a fantasy film set.",
+      "preview": "https://api.codematter.space/uploads/celtic-druid-preview.jpg"
+    },
+    {
+      "id": "54",
+      "name": "Arabian Scholar",
+      "prompt": "Use the exact face, features, and identity of the uploaded person. Create a realistic handheld selfie photo of them beside an elegant Middle Eastern scholar in a grand library. Pose: both smiling modestly toward camera, books and scrolls visible behind. The user's outfit becomes an elegant traditional robe matching the era. Lighting: warm golden tones from lamps, soft focus background with arches. Should look like a modern selfie taken on a historical set --- natural, warm, detailed.",
+      "preview": "https://api.codematter.space/uploads/arabian-scholar-preview.jpg"
+    },
+    {
+      "id": "55",
+      "name": "Amazonian Warrior",
+      "prompt": "Keep the same person's face and proportions. Create a realistic handheld selfie of them with a fierce Amazonian warrior in a tropical jungle setting. Pose: both looking into the camera with confident smiles, sunlight filtering through leaves. The user's outfit adapts to tribal expedition wear --- light fabrics, earthy tones, accessories. Lighting: warm sunlight with cinematic contrast, subtle motion blur in foliage. The image must feel alive and adventurous, like a photo captured mid-expedition.",
+      "preview": "https://api.codematter.space/uploads/amazonian-warrior-preview.jpg"
+    },
+    {
+      "id": "56",
+      "name": "Fantasy Elf Mage",
+      "prompt": "Preserve the user's exact identity and features. Create a realistic handheld selfie of them beside an elven mage with glowing runes and silver hair. Pose: friendly smiles, heads slightly close together. The user's clothing transforms into elegant fantasy attire with subtle glow accents. Lighting: cool moonlight, soft magical glow, shallow DOF. Background: glowing plants and misty forest softly blurred. Should look like a real modern selfie taken on a high-budget fantasy film set.",
+      "preview": "https://api.codematter.space/uploads/fantasy-elf-mage-preview.jpg"
+    },
+    {
+      "id": "57",
+      "name": "Royal Inventor",
+      "prompt": "Keep the uploaded person's exact facial identity. Create a realistic handheld selfie beside a royal inventor in a candle-lit workshop filled with gears and brass instruments. Pose: both smiling at the camera, surrounded by tools and blueprints. The user's outfit becomes a Victorian-style explorer coat with gloves or vest. Lighting: warm highlights, reflections from metal, cinematic tones. The photo should look authentic and alive --- a modern snapshot from a steampunk movie set.",
+      "preview": "https://api.codematter.space/uploads/royal-inventor-preview.jpg"
+    },
+    {
+      "id": "58",
+      "name": "Roman Emperor",
+      "prompt": "Use the exact face and identity of the uploaded person. Create a realistic handheld selfie of them beside a Roman emperor in a marble palace interior. Pose: both looking into the camera, confident smiles, natural posture. The user's outfit becomes a Roman-style tunic or toga with subtle embroidery. Lighting: strong Mediterranean sunlight with soft shadows, shallow DOF. Background: marble columns and statues slightly blurred. The image must look like a real selfie from a historical epic film set --- detailed, warm, and photorealistic.",
+      "preview": "https://api.codematter.space/uploads/roman-emperor-preview.jpg"
+    },
+    {
+      "id": "59",
+      "name": "Underworld Oracle",
+      "prompt": "Use the same face and identity from the uploaded photo. Create a realistic handheld selfie of them beside a mystical oracle in a candle-lit underground cave. Pose: both looking at camera, mysterious smiles, flickering shadows on faces. The user's clothing transforms into a dark ceremonial robe or gown with subtle glowing symbols. Lighting: warm candlelight, smoke, soft haze, cinematic color balance. Scene should feel eerie yet beautiful --- a realistic fantasy selfie full of atmosphere.",
+      "preview": "https://api.codematter.space/uploads/underworld-oracle-preview.jpg"
+    },
+    {
+      "id": "60",
+      "name": "Broadcast Scene",
+      "prompt": "Use the exact face, skin tone, and identity of the person from the uploaded photo. Keep their facial proportions and features unchanged --- they must look clearly like the same person. Reimagine them as a TV host, reporter, or guest inside a modern broadcast studio. The image should capture a live, natural moment rather than a posed shot --- for example: mid-speech while presenting a story, adjusting a microphone or earpiece, smiling toward the camera, gesturing toward digital screens behind, listening to a co-host just off-frame, or interacting casually with a crew member. The scene remains within a single cohesive environment --- a bright, cinematic TV newsroom or studio with realistic reflections, LED screens, and cameras slightly visible in background. Clothing automatically adapts to context (suit, dress, or business-casual broadcast outfit). Expression is lively and human --- eyes engaged, natural movement, subtle mid-motion gestures. Lighting: balanced key and fill studio lights, realistic skin tones, slight reflections on surfaces. Camera: cinematic 35--50 mm shot with shallow DOF and a hint of motion blur to convey action. The result must look like a real high-resolution photo taken *during an active TV moment*, vibrant and professional, not posed or static.",
+      "preview": "https://api.codematter.space/uploads/broadcast-scene-preview.jpg"
+    },
+    {
+      "id": "61",
+      "name": "Morning Show Host",
+      "prompt": "Use the exact face, skin tone, and identity of the person from the uploaded photo. Keep their facial structure and proportions identical --- the same person must clearly appear. Reimagine them as a morning TV show host or co-anchor in a bright, modern studio. Capture a lively mid-broadcast moment --- for example: smiling warmly toward the camera, laughing mid-conversation with a guest, holding cue cards or coffee mug while speaking, gesturing with one hand toward a large LED screen, walking between studio areas mid-segment. Lighting: soft daylight tones, cinematic reflections, balanced shadows. Outfit: casual-professional pastel clothing with clean, modern styling. Scene should feel fresh, authentic, and warm --- a real photo from a live morning broadcast, not a posed portrait.",
+      "preview": "https://api.codematter.space/uploads/morning-show-host-preview.jpg"
+    },
+    {
+      "id": "62",
+      "name": "Expert Panel Discussion",
+      "prompt": "Use the same face and identity of the uploaded person. Reimagine them as an expert or commentator in a live television panel discussion. Capture a realistic in-action frame, such as: mid-speech, hand slightly raised to emphasize a point, listening thoughtfully to another panelist, smiling or reacting naturally during discussion, adjusting papers or microphone in front. Environment: sleek modern roundtable studio, microphones, soft LED screens in background. Lighting: professional neutral key lighting with cinematic contrast. Clothing: smart business attire or semi-formal outfit suitable for broadcast. Scene should look like a high-end talk segment still --- dynamic, intelligent, and natural.",
+      "preview": "https://api.codematter.space/uploads/expert-panel-discussion-preview.jpg"
+    },
+    {
+      "id": "63",
+      "name": "Podcast Studio",
+      "prompt": "Use the exact face and identity of the person from the uploaded image. Keep the expression and structure natural and consistent. Reimagine them as a podcast host or guest mid-recording in a cozy studio. Capture candid energy --- for instance: laughing or reacting mid-conversation, leaning toward the mic while speaking, adjusting headphones, taking a sip of coffee or looking at a co-host. Background: acoustic panels, neon accents, microphones, laptop. Lighting: moody, cinematic, warm tones with LED reflections. The shot feels authentic, intimate, and full of natural personality.",
+      "preview": "https://api.codematter.space/uploads/podcast-studio-preview.jpg"
+    },
+    {
+      "id": "64",
+      "name": "Football Field Interview",
+      "prompt": "Keep the user's exact face and identity. Depict them during a live football field interview or broadcast moment. Capture active moments, such as: speaking into microphone, reacting to a player's answer, smiling as wind moves their hair or jacket, gesturing toward camera or scoreboard. Lighting: bright stadium floodlights or golden-hour sunlight. Outfit: sport media jacket, ID badge or earpiece. Scene feels kinetic and photojournalistic --- like a real live sports transmission, full of motion and atmosphere.",
+      "preview": "https://api.codematter.space/uploads/football-field-interview-preview.jpg"
+    },
+    {
+      "id": "65",
+      "name": "Basketball Court Broadcast",
+      "prompt": "Use the exact face and identity from the uploaded photo. Reimagine them courtside at a basketball arena, in the middle of coverage or post-game commentary. Capture motion and realism: talking animatedly into a microphone, standing near players warming up, turning toward camera mid-sentence, reacting with enthusiasm or focus. Lighting: strong indoor lights, glossy floor reflections, background crowd glow. Outfit: smart casual or branded team jacket. The image should look alive, like a candid press photo from real sports coverage.",
+      "preview": "https://api.codematter.space/uploads/basketball-court-broadcast-preview.jpg"
+    },
+    {
+      "id": "66",
+      "name": "Press Conference Scene",
+      "prompt": "Keep the user's facial identity perfectly intact. Depict them at a sports or media press conference table, with microphones and sponsor backdrop. Capture a mid-action instant: speaking with expressive gesture, smiling while answering a question, looking toward a journalist or flash. Lighting: neutral indoor tone with realistic reflections from flashes. Outfit: professional or sporty semi-formal look. Scene must feel dynamic, authentic, and photorealistic --- like a real post-event media photo.",
+      "preview": "https://api.codematter.space/uploads/press-conference-scene-preview.jpg"
+    },
+    {
+      "id": "67",
+      "name": "Locker Room Celebration",
+      "prompt": "Use the same person's face and appearance. Reimagine them in a locker room scene after a victory. Capture joyful realism: laughing with athletes, high-fiving a teammate, wiping water from face, champagne mist and confetti around. Lighting: warm, soft reflections from wet surfaces. Outfit: casual sportswear or towel over shoulders. Scene feels raw, authentic, like a documentary moment after the game.",
+      "preview": "https://api.codematter.space/uploads/locker-room-celebration-preview.jpg"
+    },
+    {
+      "id": "68",
+      "name": "Stadium Scene",
+      "prompt": "Preserve the user's identity exactly. Depict them standing on the stadium field, addressing a crowd or presenting an award. Capture cinematic, energetic realism: holding microphone mid-speech, gesturing toward stands, wind moving clothing or banner behind, flashes from audience cameras. Lighting: dramatic stadium floodlights, volumetric atmosphere. Outfit: stylish or event-appropriate professional clothing. Scene feels monumental and inspiring --- a real photo from a live televised event.",
+      "preview": "https://api.codematter.space/uploads/stadium-scene-preview.jpg"
+    },
+    {
+      "id": "69",
+      "name": "Self-Portrait Gallery",
+      "prompt": "Use the exact face and identity of the uploaded person. Reimagine them standing in an art gallery, looking at a large oil painting that depicts their own portrait in a classical style. Pose: standing a few steps away, head tilted slightly, hands behind back or crossed gently. Lighting: soft museum spotlights on the artwork, warm reflections on skin, cinematic shadows. Background: dark blue or neutral gallery wall, quiet atmosphere. The result should feel contemplative, elegant, and photorealistic --- like a moment of introspection captured by a museum photographer.",
+      "preview": "https://api.codematter.space/uploads/self-portrait-gallery-preview.jpg"
+    },
+    {
+      "id": "70",
+      "name": "Mirror Reflection Study",
+      "prompt": "Keep the person's identity identical. Show them in a softly lit interior, gazing into a tall mirror that subtly reflects their face and posture. Pose: head turned slightly, hand near chin or holding edge of mirror. Lighting: moody, diffused window light, natural tones. Background: minimalist room or art studio. Should feel like a cinematic portrait of self-awareness, not a posed selfie.",
+      "preview": "https://api.codematter.space/uploads/mirror-reflection-study-preview.jpg"
+    },
+    {
+      "id": "71",
+      "name": "Rainy Window Reflection",
+      "prompt": "Use the exact face of the person. Reimagine them looking through a rain-covered window at night, city lights glowing outside. Reflection of their face visible in the glass, merging with the scenery. Pose: neutral, thoughtful gaze, soft expression. Lighting: moody neon tones --- blue, amber, or violet reflections on the face. The result must look cinematic, melancholic, and deeply human.",
+      "preview": "https://api.codematter.space/uploads/rainy-window-reflection-preview.jpg"
+    },
+    {
+      "id": "72",
+      "name": "Museum of Memories",
+      "prompt": "Keep their identity exact. Depict them walking through a dim museum room filled with framed photos or artifacts of their own past (stylized or symbolic). Pose: mid-step, hands in pockets, expression contemplative. Lighting: warm, golden spotlights illuminating each frame. The image should feel like a surreal but believable moment of reflection, poetic and realistic.",
+      "preview": "https://api.codematter.space/uploads/museum-of-memories-preview.jpg"
+    },
+    {
+      "id": "73",
+      "name": "Watching Themselves on Screen",
+      "prompt": "Use the same face. Reimagine them seated in a dark cinema or projection room, watching a film where they appear on screen. Pose: profile view, faint light from projector flickering across face. Background: glowing screen, soft haze in air. Lighting: cinematic --- cold ambient light with warm rim glow. Should evoke introspection and mystery --- like a frame from an arthouse film.",
+      "preview": "https://api.codematter.space/uploads/watching-themselves-screen-preview.jpg"
+    },
+    {
+      "id": "74",
+      "name": "Glass Room",
+      "prompt": "Keep identity and appearance unchanged. Depict them standing inside a glass installation or futuristic room full of reflections. Pose: looking into the mirrored environment, one reflection showing a slightly different expression. Lighting: soft, ambient white-blue glow, volumetric depth. The scene should feel like a modern art photo --- elegant, surreal, and real at once.",
+      "preview": "https://api.codematter.space/uploads/glass-room-preview.jpg"
+    },
+    {
+      "id": "75",
+      "name": "Old Photograph",
+      "prompt": "Maintain their identity. Show them in a small gallery or antique store, holding a framed old photo of themselves as if from another era. Pose: gentle smile, soft hands holding the frame near chest. Lighting: diffused daylight, subtle dust in air. The result must feel emotional and timeless --- cinematic realism mixed with nostalgia.",
+      "preview": "https://api.codematter.space/uploads/old-photograph-preview.jpg"
+    },
+    {
+      "id": "76",
+      "name": "Moonlit Gallery of Shadows",
+      "prompt": "Keep the same face and features. Reimagine them walking through a dimly lit corridor where silhouettes on walls resemble their figure. Pose: mid-step, faint moonlight through windows, expression calm and focused. Lighting: low contrast, poetic atmosphere, cinematic symmetry. The photo should feel like an art scene about identity and time.",
+      "preview": "https://api.codematter.space/uploads/moonlit-gallery-shadows-preview.jpg"
+    },
+    {
+      "id": "77",
+      "name": "Digital Exhibition",
+      "prompt": "Use the person's face and proportions unchanged. Place them in a modern, high-tech art exhibition --- surrounded by holographic projections of themselves. Pose: gazing at one hologram curiously, hands relaxed. Lighting: cool blue and violet light from projections. Scene must look futuristic but photorealistic --- cinematic high-end art concept.",
+      "preview": "https://api.codematter.space/uploads/digital-exhibition-preview.jpg"
+    },
+    {
+      "id": "78",
+      "name": "Self Through Time",
+      "prompt": "Keep identity and features exact. Depict them standing in front of a series of portraits or screens showing their own evolution (different ages or styles). Pose: still, hands by sides, subtle awe or curiosity in eyes. Lighting: soft museum-style with reflections on polished floor. The result must look realistic, emotionally rich, and thoughtful.",
+      "preview": "https://api.codematter.space/uploads/self-through-time-preview.jpg"
+    },
+    {
+      "id": "79",
+      "name": "Ghibli Village",
+      "prompt": "Use the exact face and identity of the uploaded person. Reimagine them standing on a quiet village street inspired by Ghibli films --- warm morning light, laundry swaying in wind, old wooden houses. Pose: walking slowly, holding a small basket or notebook, hair moved by breeze. Lighting: soft golden hour glow, slightly hazy, painterly texture. The style should evoke *My Neighbor Totoro* or *Kiki's Delivery Service* --- warm, nostalgic, deeply cinematic.",
+      "preview": "https://api.codematter.space/uploads/ghibli-village-preview.jpg"
+    },
+    {
+      "id": "80",
+      "name": "Shinkai City Twilight",
+      "prompt": "Use the same face, identity, and overall appearance from the uploaded image, preserving proportions and skin tone. Depict them on a Tokyo-style rooftop during sunset, orange and blue sky blending with city lights. Pose: looking into distance, wind in hair, expression thoughtful. Lighting: vivid gradient sky, reflections on glass, shallow DOF. Feels like *Your Name* or *Weathering With You* --- emotional realism with light magic.",
+      "preview": "https://api.codematter.space/uploads/shinkai-city-twilight-preview.jpg"
+    },
+    {
+      "id": "81",
+      "name": "Cherry Blossom Street",
+      "prompt": "Maintain the user's exact face and appearance from the uploaded photo --- do not alter identity or structure. Reimagine them standing beneath blooming sakura trees, petals falling softly. Pose: slight smile, one hand brushing hair, soft natural posture. Lighting: pink-gold afternoon sunlight filtering through petals. The result must look like a romantic slice-of-life anime moment --- bright, airy, and full of motion.",
+      "preview": "https://api.codematter.space/uploads/cherry-blossom-street-preview.jpg"
+    },
+    {
+      "id": "82",
+      "name": "Spirit Realm Gateway",
+      "prompt": "Use the exact same face, identity, and features of the uploaded person, keeping proportions consistent. Show them standing before a glowing torii gate surrounded by spirit lights, inspired by *Spirited Away*. Pose: calm but amazed expression, one hand raised slightly toward light. Lighting: magical neon and warm tones, volumetric haze. Feels ethereal and cinematic --- mystical but grounded in realism.",
+      "preview": "https://api.codematter.space/uploads/spirit-realm-gateway-preview.jpg"
+    },
+    {
+      "id": "83",
+      "name": "Train Window Reflection",
+      "prompt": "Keep the face, expression, and overall identity of the person from the uploaded photo --- unchanged and recognizable. Reimagine them sitting by a train window, reflection visible as city lights pass by. Pose: relaxed, looking outside, hands folded or holding headphones. Lighting: twilight blue and gold from outside lights. Scene evokes calm introspection, like a Makoto Shinkai transition moment --- poetic and immersive.",
+      "preview": "https://api.codematter.space/uploads/train-window-reflection-preview.jpg"
+    },
+    {
+      "id": "84",
+      "name": "Rainy Street Dream",
+      "prompt": "Use the exact facial identity of the uploaded person, keeping realistic likeness and emotion. Depict them walking through neon-lit streets under rain, umbrella in hand, puddle reflections glowing. Pose: head slightly turned, soft gaze. Lighting: cool rain tones with reflections from shop signs. Inspired by *The Garden of Words* --- gentle, melancholic atmosphere.",
+      "preview": "https://api.codematter.space/uploads/rainy-street-dream-preview.jpg"
+    },
+    {
+      "id": "85",
+      "name": "Summer Hill Wind",
+      "prompt": "Keep the uploaded person's face, eyes, and identity completely unchanged. Show them standing on a grassy hill under wide blue sky, hair moving with the wind. Pose: smiling or eyes closed, peaceful posture. Lighting: bright sunlight, painted clouds, cinematic depth. Feels pure and nostalgic --- a classic Ghibli countryside frame.",
+      "preview": "https://api.codematter.space/uploads/summer-hill-wind-preview.jpg"
+    },
+    {
+      "id": "86",
+      "name": "Spirit Tea House",
+      "prompt": "Preserve the user's facial identity and expression exactly as in the uploaded image. Reimagine them sitting in a glowing, wood-paneled tea house filled with spirit creatures. Pose: calm, drinking tea or resting hands on table. Lighting: warm amber candlelight, moving shadows, glowing eyes of small spirits. Should feel magical, cozy, and cinematic --- a still from a fantasy anime world.",
+      "preview": "https://api.codematter.space/uploads/spirit-tea-house-preview.jpg"
+    },
+    {
+      "id": "87",
+      "name": "Ancient Temple at Dusk",
+      "prompt": "Use the same face and proportions from the uploaded image --- do not alter identity. Depict them walking along lantern-lit temple paths at sunset. Pose: hands together in quiet thought or mid-step through the archway. Lighting: red-orange glow, long shadows, drifting petals. Feels serene and deeply spiritual --- realistic but painterly.",
+      "preview": "https://api.codematter.space/uploads/ancient-temple-dusk-preview.jpg"
+    },
+    {
+      "id": "88",
+      "name": "Starlit Field Dream",
+      "prompt": "Maintain the exact face and features of the uploaded person. Show them lying in tall grass under a glowing starry sky, fireflies hovering nearby. Pose: relaxed, one hand behind head or reaching toward stars. Lighting: soft blue night light with gentle sparkles. Feels like a peaceful Ghibli ending scene --- dreamlike, tranquil, deeply emotional.",
+      "preview": "https://api.codematter.space/uploads/starlit-field-dream-preview.jpg"
+    },
+    {
+      "id": "89",
+      "name": "Festival Night",
+      "prompt": "Keep the user's real face, proportions, and features untouched. Depict them walking through a traditional Japanese festival with glowing lanterns, yukata clothing, paper fans, and food stalls. Pose: looking around curiously or holding a mask. Lighting: warm and colorful, with atmospheric blur and firework glow. Scene feels celebratory yet nostalgic --- a perfect anime summer memory.",
+      "preview": "https://api.codematter.space/uploads/festival-night-preview.jpg"
+    },
+    {
+      "id": "90",
+      "name": "Sky Journey",
+      "prompt": "Use the exact face and likeness of the uploaded person --- same identity, same emotion. Reimagine them riding on a flying creature or airship above the clouds. Pose: leaning forward, wind through hair, expression amazed. Lighting: golden sunlight with soft clouds below. Feels epic, free, and breathtaking --- a dreamlike adventure frame.",
+      "preview": "https://api.codematter.space/uploads/sky-journey-preview.jpg"
+    },
+    {
+      "id": "91",
+      "name": "Gravity Falls",
+      "prompt": "Transform the uploaded person into the authentic Gravity Falls cartoon world, keeping their exact face and identity while adapting proportions and style to match the series. The model should adapt the entire scene --- composition, lighting, and environment --- to feel like a genuine animated frame from *Gravity Falls*. Scene variation (auto-adaptable): standing in the Mystery Shack interior; exploring the pine forest with mist and runes; chatting with other animated characters in a town scene; posing for a friendly photo in the Gravity Falls art style. Art style guide: clean 2D flat-shaded cartoon look, smooth black outlines, muted yet warm color palette, no painterly or 3D rendering, exaggerated eyes and expressions typical of Gravity Falls. Lighting: soft, flat cartoon tones (daylight, interior glow, or forest dusk depending on setting). The person must remain clearly recognizable by their facial identity, but seamlessly integrated into the cartoon --- as if they were an actual animated character in the series, not a real person placed into it.",
+      "preview": "https://api.codematter.space/uploads/gravity-falls-preview.jpg"
+    },
+    {
+      "id": "92",
+      "name": "The Simpsons",
+      "prompt": "Transform the uploaded photo into a faithful still frame from *The Simpsons* series. Keep the original face, pose, background, and composition identical --- only restyle the image visually. Convert the person into the *Simpsons* world while maintaining full identity --- same expression, hairstyle, and clothing silhouette.",
+      "preview": "https://api.codematter.space/uploads/the-simpsons-preview.jpg"
+    },
+    {
+      "id": "93",
+      "name": "LEGO Universe",
+      "prompt": "Use the exact face and identity from the uploaded photo. Reimagine them as a LEGO-style version of themselves, standing in a colorful brick-built world. Pose: dynamic action stance or friendly smile. Lighting: soft 3D reflections, vibrant toy realism. The final image should look like a cinematic LEGO movie still --- detailed, playful, and clearly representing the same person in LEGO form.",
+      "preview": "https://api.codematter.space/uploads/lego-universe-preview.jpg"
+    },
+    {
+      "id": "94",
+      "name": "Pixar Cinematic",
+      "prompt": "Use the exact facial features, identity, and proportions from the uploaded photo. Reimagine them as a Pixar-style 3D character, realistic skin texture and expressive eyes. Scene: warm suburban or cozy adventure setting. Pose: natural movement or gentle smile. Lighting: cinematic Pixar lighting --- soft bounce light, warm highlights, storytelling depth. Should look like a frame from a Pixar film --- emotional, lifelike, and family-friendly.",
+      "preview": "https://api.codematter.space/uploads/pixar-cinematic-preview.jpg"
+    },
+    {
+      "id": "95",
+      "name": "Marvel Universe",
+      "prompt": "Use the exact face and identity of the uploaded person. Reimagine them as a hero or agent in the Marvel cinematic universe --- standing amid dynamic city or futuristic battle background. Pose: confident stance, wind blowing cape or hair, cinematic lighting. Outfit: realistic tactical or heroic suit with metallic details. Lighting: dramatic rim light, cinematic blue-orange color contrast. The result must look like a still from a Marvel film --- epic, powerful, and photorealistic.",
+      "preview": "https://api.codematter.space/uploads/marvel-universe-preview.jpg"
+    },
+    {
+      "id": "96",
+      "name": "DC Universe",
+      "prompt": "Keep the uploaded person's exact face, features, and expression. Reimagine them in a dark, stylized DC world --- city skyline at night, rain, glowing lights reflecting on wet streets. Pose: serious or determined expression, strong posture. Lighting: high contrast, noir-inspired, cinematic depth. Scene evokes Gotham or Metropolis atmosphere --- realistic, moody, and powerful.",
+      "preview": "https://api.codematter.space/uploads/dc-universe-preview.jpg"
+    },
+    {
+      "id": "97",
+      "name": "GTA Realism",
+      "prompt": "Use the exact face and identity from the uploaded photo. Reimagine them as a stylized GTA game protagonist in an urban city environment --- neon lights, palm trees, cars. Pose: mid-walk, holding a phone or leaning on a car. Lighting: golden-hour city glow or neon streetlights. Style: hyperrealistic yet slightly graphic with sharp outlines and contrast. Feels like a cinematic cover artwork for a GTA-style open world.",
+      "preview": "https://api.codematter.space/uploads/gta-realism-preview.jpg"
+    },
+    {
+      "id": "98",
+      "name": "Van Gogh Style",
+      "prompt": "Keep the same person's facial structure and identity, preserving proportions and expression. Reimagine their portrait painted in the textured brushstroke style of Vincent van Gogh. Lighting: warm, directional, painterly. Background: swirling sky or interior inspired by *Starry Night*. The result should look like a living painting --- expressive, emotional, with rich impasto texture and strong color harmony.",
+      "preview": "https://api.codematter.space/uploads/van-gogh-style-preview.jpg"
+    },
+    {
+      "id": "99",
+      "name": "South Park Style",
+      "prompt": "Use the uploaded person's face as reference --- simplify and stylize them in the recognizable 2D South Park cutout look. Scene: standing in a snowy mountain town with soft pastel sky. Pose: relaxed, cartoon smile or neutral face. Lighting: simple and flat, consistent with the show's aesthetic. The person should remain clearly recognizable despite stylization --- comical yet distinct.",
+      "preview": "https://api.codematter.space/uploads/south-park-style-preview.jpg"
+    },
+    {
+      "id": "100",
+      "name": "Rick and Morty Dimension",
+      "prompt": "Use the exact face and identity of the uploaded person. Reimagine them inside a Rick and Morty-inspired interdimensional setting --- glowing portals, sci-fi chaos, green neon light. Pose: surprised, running, or mid-expression as if caught in motion. Lighting: exaggerated, bright contrasting colors, green-blue glow. Scene should look like an authentic frame from a surreal animated episode.",
+      "preview": "https://api.codematter.space/uploads/rick-morty-dimension-preview.jpg"
+    },
+    {
+      "id": "101",
+      "name": "The Last of Us - Cinematic Apocalypse",
+      "prompt": "Keep the same face and identity from the uploaded image --- unchanged. Reimagine them in a cinematic post-apocalyptic environment inspired by *The Last of Us*. Pose: walking carefully through overgrown streets or abandoned interiors, soft sunlight filtering through dust. Clothing: rugged survival attire, muted colors, backpack or flashlight. Lighting: realistic, desaturated cinematic tones. The image should feel like a movie still --- emotional, tense, and deeply realistic.",
+      "preview": "https://api.codematter.space/uploads/last-of-us-apocalypse-preview.jpg"
+    },
+    {
+      "id": "102",
+      "name": "Cyberpunk 2077 - Futuristic City",
+      "prompt": "Use the exact face, skin tone, and identity of the uploaded person. Reimagine them standing in a neon-soaked cyberpunk city --- holograms, rain, flying cars. Pose: confident, cool, perhaps adjusting a visor or jacket. Lighting: neon pink and blue, strong reflections, cinematic rain effects. The style should evoke *Cyberpunk 2077* --- futuristic, vibrant, and ultra-realistic.",
+      "preview": "https://api.codematter.space/uploads/cyberpunk-2077-preview.jpg"
+    },
+    {
+      "id": "103",
+      "name": "Arcane - Painterly Steampunk",
+      "prompt": "Preserve the person's exact identity and facial features. Reimagine them in the painterly art style of *Arcane* --- stylized realism with oil-painted texture and soft brush edges. Scene: steampunk-industrial city with glowing lights, gears, and fog. Pose: mid-movement or introspective, subtle expression. Lighting: warm-cool cinematic contrast, atmospheric depth. Feels like a key frame from *Arcane* --- artistic, detailed, emotional, and powerful.",
+      "preview": "https://api.codematter.space/uploads/arcane-painterly-steampunk-preview.jpg"
+    }
+  ]
+}

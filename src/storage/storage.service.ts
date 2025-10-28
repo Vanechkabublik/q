@@ -8,7 +8,7 @@ import {StoredFile} from "../generate/stored-file-interface";
 export class StorageService {
 
     private readonly uploadPath = process.env.UPLOAD_PATH || './uploads';
-    private readonly publicUrl = process.env.PUBLIC_URL || 'https://codematter.space/';
+    private readonly publicUrl = process.env.PUBLIC_URL || 'https://api.codematter.space';
 
     constructor() {
         if (!existsSync(this.uploadPath)) {
