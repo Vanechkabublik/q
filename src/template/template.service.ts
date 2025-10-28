@@ -1,25 +1,48 @@
-import { Injectable } from '@nestjs/common';
+import {BadRequestException, Injectable} from '@nestjs/common';
 import { readFileSync } from 'fs';
 import { join } from 'path';
-import { Template } from './template.interface';
+import {Category} from "../entities/category.entity";
+import {InjectRepository} from "@nestjs/typeorm";
+import {Repository} from "typeorm";
+import {Template} from "../entities/template.entity";
 
 @Injectable()
 export class TemplateService {
-    private readonly templatesPath = join(process.cwd(), 'templates.json');
+    constructor(
+        @InjectRepository(Category)
+        private categoryRepository: Repository<Category>,
 
-    findAll(): Template[] {
-        try {
-            const data = readFileSync(this.templatesPath, 'utf8');
-            const jsonData = JSON.parse(data);
-            return jsonData.templates || [];
-        } catch (error) {
-            console.error('Error reading templates:', error);
-            return [];
-        }
+        @InjectRepository(Template)
+        private templateRepository: Repository<Template>,
+    ) {}
+
+    async getAllCategories(): Promise<Category[]> {
+        return await this.categoryRepository.find();
     }
 
-    findOne(id: string): Template | null {
-        const templates = this.findAll();
-        return templates.find(template => template.id === id) || null;
+    async getAllTemplates(): Promise<Template[]> {
+        return await this.templateRepository.find({
+            relations: ['category'] // если нужна информация о категории
+        });
+    }
+
+    async getTemplatesByCategory(categoryId: number): Promise<Template[]> {
+        return await this.templateRepository.find({
+            where: { category_id: categoryId },
+            relations: ['category']
+        });
+    }
+
+    async findOne(id: number): Promise<Template> {
+        const template = await this.templateRepository.findOne({
+            where: { id },
+            relations: ['category']
+        });
+
+        if (!template) {
+            throw new BadRequestException(`Template with id ${id} not found`);
+        }
+
+        return template;
     }
 }

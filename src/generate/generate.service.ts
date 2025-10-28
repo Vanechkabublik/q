@@ -11,13 +11,12 @@ export class GenerateService {
     ) {
     }
     private async getTemplatePrompt(templateId: string): Promise<string> {
-        const template = this.templatesService.findOne(templateId);
-
-        if (template) {
+        try {
+            const template = await this.templatesService.findOne(Number(templateId));
             return template.prompt;
+        } catch (error) {
+            return 'Улучшить и преобразовать изображение сохраняя сходство';
         }
-
-        return 'Улучшить и преобразовать изображение сохраняя сходство';
     }
     async generateFromTemplate(
         data: {

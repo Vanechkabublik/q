@@ -1,22 +1,22 @@
 import {Controller, Get, Param} from '@nestjs/common';
 import { TemplateService } from './template.service';
-import {Template} from "./template.interface";
 
 @Controller('template')
 export class TemplateController {
   constructor(private readonly templateService: TemplateService) {}
 
-  @Get()
-  findAll(): Template[] {
-    return this.templateService.findAll();
+  @Get('categories')
+  async getCategories() {
+    return this.templateService.getAllCategories();
   }
 
-  @Get(':id')
-  findOne(@Param('id') id: string): Template | { message: string } {
-    const template = this.templateService.findOne(id);
-    if (!template) {
-      return { message: 'Template not found' };
-    }
-    return template;
+  @Get('templates')
+  async getTemplates() {
+    return this.templateService.getAllTemplates();
+  }
+
+  @Get('category/:categoryId')
+  async getTemplatesByCategory(@Param('categoryId') categoryId: number) {
+    return this.templateService.getTemplatesByCategory(categoryId);
   }
 }
