@@ -4,6 +4,7 @@ import {Category} from "../entities/category.entity";
 import {Template} from "../entities/template.entity";
 import {Repository} from "typeorm";
 import {CreateTemplateDto} from "./create-template.dto";
+import {UpdateTemplateDto} from "./update-template.dto";
 
 @Injectable()
 export class AdminService {
@@ -52,6 +53,45 @@ export class AdminService {
         const savedTemplate = await this.templateRepository.save(template);
 
         return savedTemplate;
+    }
 
+    async updateTemplate(
+        id: number,
+        updateData: UpdateTemplateDto,
+        previewUrl?: string
+    ): Promise<Template> {
+
+        const template = await this.templateRepository.findOne({ where: { id } });
+
+        if (!template) {
+            throw new BadRequestException(`Template with id ${id} not found`);
+        }
+
+        // Проверяем существование категории если передана
+        if (updateData.category_id !== undefined) {
+            const category = await this.categoryRepository.findOne({
+                where: { id: updateData.category_id }
+            });
+            if (!category) {
+                throw new BadRequestException(`Category with id ${updateData.category_id} not found`);
+            }
+        }
+
+        if (previewUrl) {
+            updateData.preview_url = previewUrl;
+        }
+
+        await this.templateRepository.update(id, updateData);
+
+        const updatedTemplate = await this.templateRepository.findOne({
+            where: { id },
+            relations: ['category']
+        });
+
+        if (!updatedTemplate) {
+            throw new BadRequestException(`Template with id ${id} not found after update`);
+        }
+
+        return updatedTemplate;
     }
 }

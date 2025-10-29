@@ -6,6 +6,7 @@ import {TypeOrmModule} from "@nestjs/typeorm";
 import {Category} from "../entities/category.entity";
 import {Template} from "../entities/template.entity";
 import {StorageService} from "../storage/storage.service";
+import {TemplateService} from "../template/template.service";
 
 @Module({
   imports: [
@@ -15,6 +16,6 @@ import {StorageService} from "../storage/storage.service";
     TypeOrmModule.forFeature([Category, Template])
   ],
   controllers: [AdminController],
-  providers: [AdminService, StorageService],
+  providers: [AdminService, StorageService, TemplateService],
 })
 export class AdminModule {}
